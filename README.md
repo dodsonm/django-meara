@@ -1,8 +1,8 @@
 # django-meara
 Demo REST API project in Python Django. MEARA stands for Matt's Enterprise Architecture Reports &amp; Analytics.
 
-## Setup
-This outline is for personal reference. I use macOS with Homebrew for installing/managing any tech dependencies and like to keep most projects isolated to their own Ubuntu VM using Multipass. Obv, folks can prep their own dev machine for Django any way they like.
+## Setup (ROUGH DRAFT)
+Currently a log of the steps I've taken while starting the project from scratch. I'll have to weed-out the creation steps (e.g. startproject, startapp)
 
 1. Tap the "Multipass" Cask
   ```
@@ -87,7 +87,7 @@ This outline is for personal reference. I use macOS with Homebrew for installing
       ```
     5. Start Django project
       ```
-      django-admin startproject hello_django
+      django-admin startproject meara_project
       ```
     6. Update DB & Static folder in settings.py  
       ```
@@ -129,8 +129,3 @@ This outline is for personal reference. I use macOS with Homebrew for installing
     * TK
   9. TEST
     * TK
-
-
-## TODOs
-1. Include cloud-init for automating new envs in e.g. Multipass
-2. Solve problem where permissions don't sync in multipass mount
