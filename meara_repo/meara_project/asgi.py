@@ -1,5 +1,5 @@
 """
-ASGI config for meara_repo project.
+ASGI config for meara_project project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'meara_repo.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'meara_project.settings')
 
 application = get_asgi_application()
